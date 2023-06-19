@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+}
+main{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+main .container{
+ text-align: center;
+}
+main h2{
+font-size: 45px;
+}
+main .container span{
+    font-size: 59px;
+    font-weight: 700;
+}
+.btn-container{
+margin: 12px;
+}
+.btn-container button{
+    margin: 10px;
+    width: 100px;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 9px;
+    border: solid black 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-container button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
