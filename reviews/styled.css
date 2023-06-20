@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main h2{
+    font-size: 35px;
+   
+}
+.underline{
+    margin-bottom: 34px;
+    background-color: rgb(86, 174, 196);
+    width: 65px;
+    height: 3px;
+
+}
+.review {
+    height: 600px;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.review #person-img{
+    height: 330px;
+
+}
+
+.review h4{
+    margin: 0 5px 5px;
+    font-size: 22px;
+    font-weight: 900;
+}
+.review #info{
+
+    height: 140px;
+}
+
+.review #job {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(86, 174, 196);
+    margin: 8px;
+}
+
+
+.review .btn-container button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin: 10px;
+    color:rgb(86, 174, 196);
+}
+    
+.review .rndm-btn{
+    color:rgb(86, 174, 196);
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 4px;
+    border:solid 2px rgb(86, 174, 196) ;
+}
