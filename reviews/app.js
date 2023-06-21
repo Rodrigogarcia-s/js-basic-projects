@@ -1,6 +1,6 @@
 const reviews= [{
     id:1,
-    name:"Susan Smith",
+    name:"Criss Mars",
     job:"web developer",
     img:"https://pointerhh.com/wp-content/uploads/2017/05/PerfilJoacoCircular.png",
     text:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
@@ -15,9 +15,9 @@ const reviews= [{
 },
 {
     id:3,
-    name: " Criss Mars",
+    name: "Susan Smith",
     job:"ux/ui designer",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu55nInZIIFNckrzMIElzE9faYliH22zgh06Jf3VJJhwf4-NPZDOYHCOtTzTQpeAhK_tg&usqp=CAU",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLwzAjdXyEwwYmxhQtATG7TGNW05RC6upyuCgP9gFY29UURFwDU_xX_wEI32WDsQJqVQ&usqp=CAU",
     text:"It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     
 }
