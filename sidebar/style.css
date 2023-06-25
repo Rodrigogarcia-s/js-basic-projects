@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sidebar-toggle{
+   position: fixed;
+   top: 2rem;
+   right: 3rem;
+   font-size: 30px;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   transition: 0.2s;
+}
+.sidebar-toggle:hover{
+    font-size: 33px;
+}
+.sidebar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 40%;
+    transform: translate(-100%);
+    transition: 0.4s;
+}
+
+.show-sidebar{
+    width: 400px;
+    transform: translate(0);
+}
+
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-header h2{
+    margin-left: 28px;
+    letter-spacing: 2px;
+}
+.sidebar-header h2 span{
+    color: rgb(72, 138, 182);
+}
+.close-btn{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.close-btn:hover{
+    font-size: 21px;
+}
+.links, .social-icons{
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 0px;
+    
+}
+.links{
+    margin-bottom: 270px;
+}
+  .links a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: 18x;
+    transition: 0.4s;
+    
+  }
+  .links li:hover{
+    padding-left: 42px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    
+    
+  }
+  .links li{
+    cursor: pointer;
+    height: 50px;
+    padding: 10px;
+    width: 90%;
+    transition: 0.4s;
+   
+  }
+
+  .social-icons{
+    display: flex;
+    justify-self: center;
+    margin-bottom: 30px;
+   
+  }
+  .social-icons a{
+    margin: 5px;
+    color: black;
+  }
+  .social-icons a:hover{
+    color: rgb(72, 138, 182);
+  }
