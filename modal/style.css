@@ -1,0 +1,65 @@
+body{
+  height: 100vh;
+  background-image:url("fondo.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+height: 200px;
+width: 400px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 8px;
+}
+.container h2{
+  font-size: 30px;
+}
+.container  button{
+  letter-spacing: 2px;
+  padding: 7px;
+  border: none;
+  background-color: rgb(72, 125, 204);
+  color: white;
+  cursor: pointer;
+  border-radius:8px ;
+  width: 120px;
+}
+.container  button:hover{
+  background-color: transparent;
+  color: black;
+  
+}
+
+.modal-overlay{
+  position: fixed;
+  visibility: hidden;
+  background-color: white;
+  width: 400px;
+  height: 190px;
+  display: grid;
+  place-items: center;
+  
+}
+.modal-container button{
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  font-size: 16px;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  
+
+
+}
+.show-overlay{
+  visibility:visible;
+  
+}
