@@ -1,0 +1,79 @@
+body{
+  height: 100vh;
+}
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.questions-container{
+  text-align: center;
+}
+.questions-container h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.section-centre{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 540px;
+  margin: 22px;
+}
+.question{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 3px;
+  margin: 0px;
+  width: 540px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  
+}
+.question h4{
+  margin-left:20px ;
+}
+.question button{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  margin: 10px;
+  padding: 1px;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+.question-btn:hover {
+  transform: rotate(90deg);
+  transition: 0.4s;
+}
+
+.question button span{
+  margin: 3px;
+  border: solid 2px black;
+  transition: all 0.4s linear;
+}
+
+.question-text{
+    padding: 30px;
+    display: none;
+    
+  }
+.show-text .question-text{
+  display: block;
+}
+.minus{
+  display: none;
+}
+
+.show-text .plus{
+  display: none;
+}
+.show-text .minus{
+  display: inline;
+}
