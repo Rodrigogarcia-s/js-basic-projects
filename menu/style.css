@@ -102,3 +102,19 @@ header .btns button:hover{
  .container .info p{
     margin-bottom: 30px;
  }
+ @media screen and (max-width:884px) {
+   .containers{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      justify-items: center;
+   }
+   .container{
+      margin: 10px;
+      padding: 8px;
+      display: flex;
+      width: 80%;
+      height: 140px;
+      
+   }
+ }
