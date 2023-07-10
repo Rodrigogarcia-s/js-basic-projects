@@ -52,17 +52,16 @@ header .btns button:hover{
 }
 
  .containers{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    grid-gap: 80px;
+   justify-content: center;
  }
 
  .container{
     margin: 10px;
     padding: 8px;
     display: flex;
-    width: 40%;
     height: 140px;
     
  }
