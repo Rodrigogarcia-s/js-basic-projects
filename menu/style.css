@@ -44,6 +44,7 @@ header .btns button{
     border: solid 1px var(--color);
     color: var(--color);
     font-family: var(--font-family);
+    text-transform: capitalize;
 }
 header .btns button:hover{
     background-color: var(--color);
